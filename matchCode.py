@@ -32,7 +32,7 @@ def dist(a, b):
 
 if __name__ == '__main__':
     x = readText('SourceCode.py')
-    y = readText('Example1.py')
+    y = readText('Example.py')
     print("Matching Word(s):",end=' ')
     p, d = codeDistance(x, y)
     print()
